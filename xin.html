@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>STEM教材导航</title>
+<style>
+    body {
+        font-family: Arial, sans-serif; /* 使用无衬线字体 */
+        background-color: #f4f4f4; /* 页面背景颜色 */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center; /* 水平居中 */
+        align-items: center; /* 垂直居中 */
+        height: 100vh; /* 视窗的100%高度 */
+    }
+    #container {
+        background-color: white; /* 容器背景颜色 */
+        text-align: center; /* 文字居中 */
+        padding: 20px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1); /* 容器阴影 */
+        width: 80%; /* 容器宽度 */
+        max-width: 600px; /* 最大宽度 */
+    }
+    .button {
+        background-color: #4CAF50; /* 按钮背景颜色 */
+        border: none;
+        color: white;
+        padding: 10px 20px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 10px;
+        cursor: pointer;
+        border-radius: 5px; /* 按钮圆角 */
+    }
+    img {
+        width: 100%; /* 图片自适应容器宽度 */
+        height: auto;
+        margin-top: 20px; /* 图片顶部边距 */
+    }
+</style>
+</head>
+<body>
+<div id="container">
+    <h1>欢迎来到STEM电力系统教材</h1>
+    <img src="stem/images/system.jpg" alt="电力系统示意图">
+    <p>这里是电力系统的学习材料，涵盖了科学、技术、工程和数学的综合应用。</p>
+    <a href="stem/science.html" class="button">科学(S)</a>
+    <a href="stem/technology.html" class="button">技术(T)</a>
+    <a href="stem/engineering.html" class="button">工程(E)</a>
+    <a href="stem/m/dist/index.html" class="button">数学(M)</a>
+</div>
+</body>
+</html>
